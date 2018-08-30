@@ -37,3 +37,24 @@
 [submodule "3rdParty/Amsterdam"]
 	path = 3rdParty/Amsterdam
 	url = git@github.com:StamusNetworks/Amsterdam.git
+[submodule "3rdParty/dockprom"]
+	path = 3rdParty/dockprom
+	url = git@github.com:stefanprodan/dockprom.git
+[submodule "3rdParty/docker-glpi"]
+	path = 3rdParty/docker-glpi
+	url = git@github.com:Turgon37/docker-glpi.git
+[submodule "3rdParty/docker-glpi-pgower"]
+	path = 3rdParty/docker-glpi-pgower
+	url = git@github.com:PGower/docker-glpi.git
+[submodule "3rdParty/OCSInventory-Docker-Image"]
+	path = 3rdParty/OCSInventory-Docker-Image
+	url = git@github.com:OCSInventory-NG/OCSInventory-Docker-Image.git
+[submodule "3rdParty/OCSInventory-Docker-Stack"]
+	path = 3rdParty/OCSInventory-Docker-Stack
+	url = git@github.com:OCSInventory-NG/OCSInventory-Docker-Stack.git
+[submodule "3rdParty/zabbix-docker"]
+	path = 3rdParty/zabbix-docker
+	url = git@github.com:zabbix/zabbix-docker.git
+[submodule "3rdParty/ax-zabbix-docker"]
+	path = 3rdParty/ax-zabbix-docker
+	url = git@github.com:dimuskin/ax-zabbix-docker.git
