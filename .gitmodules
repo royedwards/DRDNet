@@ -1,0 +1,39 @@
+[submodule "3rdParty/tpotce"]
+	path = 3rdParty/tpotce
+	url = git@github.com:dtag-dev-sec/tpotce.git
+[submodule "3rdParty/docker-trisulnsm"]
+	path = 3rdParty/docker-trisulnsm
+	url = git@github.com:trisulnsm/docker.git
+[submodule "3rdParty/docker-cacti"]
+	path = 3rdParty/docker-cacti
+	url = git@github.com:QuantumObject/docker-cacti.git
+[submodule "3rdParty/t-pot-autoinstall"]
+	path = 3rdParty/t-pot-autoinstall
+	url = git@github.com:dtag-dev-sec/t-pot-autoinstall.git
+[submodule "3rdParty/prometheus"]
+	path = 3rdParty/prometheus
+	url = git@github.com:prometheus/prometheus.git
+[submodule "3rdParty/docker-mediawiki"]
+	path = 3rdParty/docker-mediawiki
+	url = git@github.com:kristophjunge/docker-mediawiki.git
+[submodule "3rdParty/docker-clamav"]
+	path = 3rdParty/docker-clamav
+	url = git@github.com:tiredofit/docker-clamav.git
+[submodule "3rdParty/docker-nagios"]
+	path = 3rdParty/docker-nagios
+	url = git@github.com:ethnchao/docker-nagios.git
+[submodule "3rdParty/docker-rt"]
+	path = 3rdParty/docker-rt
+	url = git@github.com:jfcanaveral/docker-rt.git
+[submodule "3rdParty/docker_shinken"]
+	path = 3rdParty/docker_shinken
+	url = git@github.com:rohit01/docker_shinken.git
+[submodule "3rdParty/docker-suricata"]
+	path = 3rdParty/docker-suricata
+	url = git@github.com:shift/docker-suricata.git
+[submodule "3rdParty/grIDS"]
+	path = 3rdParty/grIDS
+	url = git@github.com:gradiuscypher/grIDS.git
+[submodule "3rdParty/Amsterdam"]
+	path = 3rdParty/Amsterdam
+	url = git@github.com:StamusNetworks/Amsterdam.git
