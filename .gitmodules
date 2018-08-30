@@ -58,3 +58,15 @@
 [submodule "3rdParty/ax-zabbix-docker"]
 	path = 3rdParty/ax-zabbix-docker
 	url = git@github.com:dimuskin/ax-zabbix-docker.git
+[submodule "3rdParty/osticket-docker"]
+	path = 3rdParty/osticket-docker
+	url = git@github.com:pi0/osticket-docker.git
+[submodule "3rdParty/docker-osticket"]
+	path = 3rdParty/docker-osticket
+	url = git@github.com:clementlecorre/docker-osticket.git
+[submodule "3rdParty/virtualbox-python"]
+	path = 3rdParty/virtualbox-python
+	url = git@github.com:SethMichaelLarson/virtualbox-python.git
+[submodule "3rdParty/go-vboxapi"]
+	path = 3rdParty/go-vboxapi
+	url = git@github.com:blacktop/go-vboxapi.git
