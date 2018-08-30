@@ -1,0 +1,28 @@
+Name,Type,Data,Timestamp
+_msdcs,,,
+_sites,,,
+_tcp,,,
+_udp,,,
+DomainDnsZones,,,
+ForestDnsZones,,,
+(same as parent folder),Start of Authority (SOA),[129], mickeym.delreynet.local., hostmaster.delreynet.local.,static
+(same as parent folder),Name Server (NS),mickeym.delreynet.local.,static
+(same as parent folder),Host (A),192.168.88.10,?5/?30/?2018 9:00:00 PM
+Bathazar,Host (A),192.168.88.106,?8/?7/?2018 3:00:00 PM
+CaptainHook,Host (A),192.168.88.115,?8/?8/?2018 10:00:00 PM
+Carrot,Host (A),192.168.88.117,?8/?13/?2018 4:00:00 PM
+Chip,Host (A),192.168.88.110,?8/?9/?2018 7:00:00 AM
+dahub,Host (A),192.168.88.1,static
+Dale,Host (A),192.168.88.111,?8/?9/?2018 7:00:00 AM
+DonaldD,Host (A),192.168.88.109,?8/?7/?2018 9:00:00 PM
+Gopher,Host (A),192.168.88.107,?8/?7/?2018 8:00:00 AM
+Hefalump,Host (A),192.168.88.124,?8/?9/?2018 1:00:00 PM
+HP-MainPrinter,Host (A),192.168.88.66,static
+maleficent,Host (A),192.168.88.198,?8/?9/?2018 7:00:00 AM
+mickeym,Host (A),192.168.88.10,static
+minim,Host (A),192.168.88.20,static
+panx,Host (A),192.168.88.55,static
+Piglet,Host (A),192.168.88.126,?8/?14/?2018 5:00:00 AM
+Pooh,Host (A),192.168.88.132,?8/?8/?2018 8:00:00 AM
+shootsnleaves,Host (A),192.168.88.189,?8/?9/?2018 7:00:00 AM
+ursula,Host (A),192.168.88.101,?8/?8/?2018 7:00:00 AM

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI timestamp="2018-07-23T04:25:21" xmi.version="1.2" xmlns:UML="http://schema.omg.org/spec/UML/1.4" verified="false">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.13</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.4" href="UML.xml" xmi.name="UML"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model name="UML Model" isLeaf="false" isSpecification="false" xmi.id="m1" isAbstract="false" isRoot="false">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype name="folder" isLeaf="false" visibility="public" isSpecification="false" namespace="m1" xmi.id="folder" isAbstract="false" isRoot="false"/>
+    <UML:Model name="Logical View" isLeaf="false" visibility="public" isSpecification="false" namespace="m1" xmi.id="Logical_View" isAbstract="false" isRoot="false">
+     <UML:Namespace.ownedElement>
+      <UML:Package name="Datatypes" isLeaf="false" visibility="public" isSpecification="false" stereotype="folder" namespace="Logical_View" xmi.id="Datatypes" isAbstract="false" isRoot="false">
+       <UML:Namespace.ownedElement>
+        <UML:DataType name="char" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uJ3GDfVb691lY" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uvltpLv7dMjVd" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="float" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uUCENAK5asWW8" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="double" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uN5SxSVDTmEaP" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="bool" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uVDSWO2LObuEA" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="string" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uHsBrXDvW52qv" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="unsigned char" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uhN6au94s5f0O" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="signed char" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uKoFkEc8BBCYT" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="unsigned int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="u7Zs7DSKd1OGx" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="signed int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uuAWklmfOocze" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="short int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uDHPkCcI24eYO" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="unsigned short int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="upIdM5oynPtnI" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="signed short int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uhOkeBL6aJRWB" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="long int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uCtMeF8zDmVoo" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="signed long int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uJVyYzq2PYw3O" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="unsigned long int" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="ubZMcq8MG1umx" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="long double" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="ugBj46Z8mm9Kq" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="wchar_t" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uIgbyWlPoN5Cf" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="array" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uwqX3bciROMKS" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="tuple" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="u6S42pfrRHMhM" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="list" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uebe6ynmIhi5b" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="long" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uGDka1YL7R8hU" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="dict" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uedMkEupZ3PCm" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="object" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="ubwHoXCXQqqGi" isAbstract="false" isRoot="false"/>
+        <UML:DataType name="set" isLeaf="false" visibility="public" isSpecification="false" namespace="Datatypes" xmi.id="uiVD3CZhHznsA" isAbstract="false" isRoot="false"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class name="VMachine" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" comment="A virtual machine object&#xa;" xmi.id="ul1YKVwDOw9Ov" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Attribute name="snapshots" visibility="private" isSpecification="false" type="uCYIFFsQzq8Jq" xmi.id="uO2ln8u7okdUf"/>
+        <UML:Attribute name="info" visibility="private" isSpecification="false" xmi.id="uAcbRVCeMFMHg"/>
+        <UML:Attribute name="backups" visibility="private" isSpecification="false" type="uI5WwvRLS25oC" xmi.id="uiOS9T14xi1dy"/>
+        <UML:Attribute name="log" visibility="private" isSpecification="false" type="uuQ7GbRKWWzDs" xmi.id="u9NlETU5Z1iUq"/>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" comment="Initialize&#xa;" xmi.id="uikThNhH8bqpS" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter type="ul1YKVwDOw9Ov" kind="return" xmi.id="uSlHIM0Vqf8CK"/>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="ul1YKVwDOw9Ov" xmi.id="unLGPHxtAWLaF"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation name="start" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uWOw7ZPcN9u78" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="stop" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uQB9zsxSqfgL7" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="pause" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uIUUIOz5ZpO7f" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="resume" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uv2eL10iU1pwj" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="info" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u0rLM54D5vE6d" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="powerdown" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uxo3ptwKxZSgB" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="powerbutton" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u80V4A451xyl4" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="save" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uoQZbpAKQ3qGQ" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="screenshot" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uaMFFcoera16K" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="snapshot" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uJALkg8Fcf0HT" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="clone" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="unIAAdBnIFS33" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="export" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uTU2TSAf1RZ8i" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="findLog" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uVOv8fZNkicOE" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="showLog" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="utRW0to14KUSK" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="findAssert" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uWfOqjUj7SvXb" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="anyVM" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="unGYCM4KASfcD" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="existingVM" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u1vtyA6rCxoTH" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="closedVM" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uZ5K5eeBP7hJu" isAbstract="false" isRoot="false" isQuery="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Snapshot" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="u5v8faiVoAaY0" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="ubYbE5W9oKe1a" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="create" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="udlo09uzlmz3u" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="delete" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="ugG33OQMYJlEA" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="merge" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uRLK45mWgl2me" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="list" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u7nd4LJHSpod9" isAbstract="false" isRoot="false" isQuery="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Backup" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" comment="Perform Local and Cloud based backups" xmi.id="ugImfZAFRFXWv" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" comment="Initializatiion&#xa;" xmi.id="uPL7XBlnTxg53" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="ugImfZAFRFXWv" xmi.id="u4LzWV8RE7TKq"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation name="local_backup" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uA0gw31Gf9sMm" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="remote_backup" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uS1Ta8kpADi4o" isAbstract="false" isRoot="false" isQuery="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Snapshot_Mgr" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="uCYIFFsQzq8Jq" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Attribute name="snapshots" visibility="private" isSpecification="false" type="u5v8faiVoAaY0" xmi.id="uh5YtZ5LYyZ7w"/>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="unh5YfJsuVcpX" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter type="uCYIFFsQzq8Jq" kind="return" xmi.id="u63MRzovCYDo4"/>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="uCYIFFsQzq8Jq" xmi.id="uClURb6tjqMpf"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="VM_Mgr" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" comment=" " xmi.id="uTTGreZpl0D3z" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Attribute name="vms" visibility="private" isSpecification="false" type="ul1YKVwDOw9Ov" xmi.id="uRJjjnb1uZFOj"/>
+        <UML:Attribute name="vbox" visibility="private" isSpecification="false" type="u18sr51Ztbukx" xmi.id="ucc1aeVQuNyLb"/>
+        <UML:Attribute name="session" visibility="private" isSpecification="false" type="uhVIqsco5Bovp" xmi.id="uWSA2jEdvGKps"/>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="un6Lfm11LlVB2" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="uTTGreZpl0D3z" xmi.id="uqI1FinhQx4H2"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+        <UML:Operation name="list" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" comment="return list of Virtual Machines" xmi.id="u6vFxVSKUIk7I" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="host" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u2rA1QIvzyoRA" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="quit" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="ukoy2HfCeedNu" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="connect" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u0y9nFvH3DuKR" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="disconnect" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uWEQoZBfDknoC" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="reconnect" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uLW9kRxzeyFv9" isAbstract="false" isRoot="false" isQuery="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Backup_Mgr" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="uI5WwvRLS25oC" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Attribute name="backups" visibility="private" isSpecification="false" type="ugImfZAFRFXWv" xmi.id="uTxYhVjvkBV7Z"/>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="upZdE1L5f6QeD" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="uI5WwvRLS25oC" xmi.id="u1LmFvlHRRaQm"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="VBox" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="u18sr51Ztbukx" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="u156w1YubXSJA" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="u18sr51Ztbukx" xmi.id="uYFOCvgpjoskA"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Session" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="uhVIqsco5Bovp" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uYAaps45MjnEL" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter type="uhVIqsco5Bovp" kind="return" xmi.id="u8EVZKnopYfrX"/>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="uhVIqsco5Bovp" xmi.id="uhREufsHzwehE"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Log" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="uuQ7GbRKWWzDs" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uYSz5vdRrxTtA" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="uuQ7GbRKWWzDs" xmi.id="ubUv4dNbQnw7z"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="Command" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="u0N1rpwJl67Um" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uzjFNLT8GRIwo" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="u0N1rpwJl67Um" xmi.id="ulEQJpmP06ELJ"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="ErrorHandler" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="u9HINmopSnMed" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Attribute name="log" visibility="private" isSpecification="false" type="uuQ7GbRKWWzDs" xmi.id="uLhhBjnXHAJxx"/>
+        <UML:Operation name="__init__" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uTNrpiXfXIJha" isAbstract="false" isRoot="false" isQuery="false">
+         <UML:BehavioralFeature.parameter>
+          <UML:Parameter name="self" visibility="private" value="" isSpecification="false" type="u9HINmopSnMed" xmi.id="u9NGnLvxCOpzm"/>
+         </UML:BehavioralFeature.parameter>
+        </UML:Operation>
+       </UML:Classifier.feature>
+      </UML:Class>
+      <UML:Class name="new_class" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="usA5Igdi5hTq6" isAbstract="false" isRoot="false"/>
+      <UML:Class name="App" isLeaf="false" visibility="public" isSpecification="false" namespace="Logical_View" xmi.id="unBluRIUuztQc" isAbstract="false" isRoot="false">
+       <UML:Classifier.feature>
+        <UML:Operation name="shell" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uNStLGYFhgXjt" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="quit" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uXKyyRV9rLJB9" isAbstract="false" isRoot="false" isQuery="false"/>
+        <UML:Operation name="start" isLeaf="false" isOverride="false" visibility="public" isSpecification="false" xmi.id="uqNqTx0k79vK1" isAbstract="false" isRoot="false" isQuery="false"/>
+       </UML:Classifier.feature>
+      </UML:Class>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams resolution="96">
+       <diagram showgrid="0" showopsig="1" linewidth="0" showpubliconly="0" snapgrid="0" snapx="25" showstereotype="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" canvasheight="1816.76" showatts="1" showattribassocs="1" linecolor="#ff0000" snapcsgrid="0" showattsig="1" xmi.id="uivybkveuB0P7" fillcolor="#ffff00" localid="-1" griddotcolor="#d3d3d3" backgroundcolor="#ffffff" name="class diagram" textcolor="#000000" showops="1" zoom="46.52391396064095" isopen="1" showpackage="1" type="1" showscope="1" usefillcolor="1" documentation="" snapy="25" canvaswidth="2746.79">
+        <widgets>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="214" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="u5v8faiVoAaY0" width="155" showattsigs="601" fillcolor="#ffff00" localid="uLMydSxPkq96j" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-817.398" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-310.847"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="148" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="unBluRIUuztQc" width="117" showattsigs="601" fillcolor="#ffff00" localid="u0EwfeOnsz9b7" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-1557.92" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-2190.24"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="792" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="ul1YKVwDOw9Ov" width="500" showattsigs="601" fillcolor="#ffff00" localid="uRYmroAeXYFqe" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-879.68" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1198.83"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="82" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="uhVIqsco5Bovp" width="438" showattsigs="601" fillcolor="#ffff00" localid="uBfvwy4Ng7YOe" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-1598.99" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1160.88"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="99" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="uCYIFFsQzq8Jq" width="621" showattsigs="601" fillcolor="#ffff00" localid="uCQNH7RqDV3cW" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-1089.22" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-562.686"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="148" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="ugImfZAFRFXWv" width="316" showattsigs="601" fillcolor="#ffff00" localid="uausGAwT0qNgD" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-692.051" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1786.31"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="99" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="uI5WwvRLS25oC" width="385" showattsigs="601" fillcolor="#ffff00" localid="uQlkI6X7BPfAr" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-1036.55" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-2007.56"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="363" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="uTTGreZpl0D3z" width="333" showattsigs="601" fillcolor="#ffff00" localid="uAUhlw5YWnqQI" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-1379.73" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1148.02"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="82" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="u18sr51Ztbukx" width="290" showattsigs="601" fillcolor="#ffff00" localid="uDCGZC0KZ8o3n" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-1496.54" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1770.25"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="82" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="uuQ7GbRKWWzDs" width="270" showattsigs="601" fillcolor="#ffff00" localid="ulBHHJSRNKGoV" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-678.845" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1069.65"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="82" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="u0N1rpwJl67Um" width="354" showattsigs="601" fillcolor="#ffff00" localid="unezVKJYd2xGz" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-434.294" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-422.12"/>
+         <classwidget showopsigs="601" linewidth="0" showpubliconly="0" height="99" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="0" linecolor="#ff0000" xmi.id="u9HINmopSnMed" width="393" showattsigs="601" fillcolor="#ffff00" localid="uvTzGoDhXt7kD" showoperations="1" textcolor="#000000" usesdiagramusefillcolor="0" y="-46.1577" showpackage="1" showscope="1" usefillcolor="1" showattributes="1" x="-1331.07"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="uTTGreZpl0D3z" linecolor="#ff0000" xmi.id="uWSA2jEdvGKps" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="uhVIqsco5Bovp" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-1379.73" startx="-1022.09"/>
+           <endpoint endx="-1022.09" endy="-1516.99"/>
+          </linepath>
+          <floatingtext posttext="" text="session" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="utzJas9kKYnif" width="113" fillcolor="none" localid="u1HqFr313MKm9" textcolor="none" usesdiagramusefillcolor="1" y="-1541.49" pretext="-" role="710" usefillcolor="1" x="-1082.09"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="uI5WwvRLS25oC" linecolor="#ff0000" xmi.id="uTxYhVjvkBV7Z" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="ugImfZAFRFXWv" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-937.548" startx="-1622.56"/>
+           <endpoint endx="-1622.56" endy="-692.051"/>
+          </linepath>
+          <floatingtext posttext="" text="backups" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="uFY3HAgxtlleI" width="124" fillcolor="none" localid="ulyjAuG42hAaB" textcolor="none" usesdiagramusefillcolor="1" y="-708.021" pretext="-" role="710" usefillcolor="1" x="-1670.19"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="ul1YKVwDOw9Ov" linecolor="#ff0000" xmi.id="uO2ln8u7okdUf" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="uCYIFFsQzq8Jq" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-879.68" startx="-698.834"/>
+           <endpoint endx="-562.686" endy="-990.218"/>
+          </linepath>
+          <floatingtext posttext="" text="snapshots" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="uiNdtHyM6Yam5" width="150" fillcolor="none" localid="uTaw0X2MXAguy" textcolor="none" usesdiagramusefillcolor="1" y="-997.407" pretext="-" role="710" usefillcolor="1" x="-663.251"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="uTTGreZpl0D3z" linecolor="#ff0000" xmi.id="ucc1aeVQuNyLb" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="u18sr51Ztbukx" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-1379.73" startx="-1148.02"/>
+           <endpoint endx="-1480.25" endy="-1414.54"/>
+          </linepath>
+          <floatingtext posttext="" text="vbox" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="u9oMmnTjlXTXM" width="80" fillcolor="none" localid="uywBEMJkUVpWS" textcolor="none" usesdiagramusefillcolor="1" y="-1439.26" pretext="-" role="710" usefillcolor="1" x="-1464.85"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="uCYIFFsQzq8Jq" linecolor="#ff0000" xmi.id="uh5YtZ5LYyZ7w" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="u5v8faiVoAaY0" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-990.218" startx="-310.847"/>
+           <endpoint endx="-310.847" endy="-817.398"/>
+          </linepath>
+          <floatingtext posttext="" text="snapshots" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="uBA3oj8FekWTC" width="150" fillcolor="none" localid="uwoLpg8PfmTWB" textcolor="none" usesdiagramusefillcolor="1" y="-846.154" pretext="-" role="710" usefillcolor="1" x="-435.754"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="uTTGreZpl0D3z" linecolor="#ff0000" xmi.id="uRJjjnb1uZFOj" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="ul1YKVwDOw9Ov" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-1016.73" startx="-1028.98"/>
+           <endpoint endx="-1028.98" endy="-879.68"/>
+          </linepath>
+          <floatingtext posttext="" text="vms" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="u7lCGtu8Dq4qh" width="69" fillcolor="none" localid="uYWoV0Gg44gpZ" textcolor="none" usesdiagramusefillcolor="1" y="-927.815" pretext="-" role="710" usefillcolor="1" x="-1065.98"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="ul1YKVwDOw9Ov" linecolor="#ff0000" xmi.id="uiOS9T14xi1dy" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="uI5WwvRLS25oC" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-879.68" startx="-1198.83"/>
+           <endpoint endx="-1622.56" endy="-937.548"/>
+          </linepath>
+          <floatingtext posttext="" text="backups" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="ud4JSgLznB1tr" width="124" fillcolor="none" localid="uQOItfbsuAhOx" textcolor="none" usesdiagramusefillcolor="1" y="-916.16" pretext="-" role="710" usefillcolor="1" x="-1633.75"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="ul1YKVwDOw9Ov" linecolor="#ff0000" xmi.id="u9NlETU5Z1iUq" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="uuQ7GbRKWWzDs" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-678.845" startx="-997.645"/>
+           <endpoint endx="-997.645" endy="-678.845"/>
+          </linepath>
+          <floatingtext posttext="" text="log" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="uuRWSkSnzR2FM" width="58" fillcolor="none" localid="uJfClKhtfbmqj" textcolor="none" usesdiagramusefillcolor="1" y="-676.845" pretext="-" role="710" usefillcolor="1" x="-1029.65"/>
+         </assocwidget>
+         <assocwidget indexb="1" linewidth="0" totalcountb="2" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" widgetaid="u9HINmopSnMed" linecolor="#ff0000" xmi.id="uLhhBjnXHAJxx" fillcolor="none" seqnum="" totalcounta="2" textcolor="none" visibilityA="1" visibilityB="1" widgetbid="uuQ7GbRKWWzDs" indexa="1" usesdiagramusefillcolor="1" type="510" changeabilityA="900" changeabilityB="900" usefillcolor="1">
+          <linepath layout="Polyline">
+           <startpoint starty="-46.1577" startx="-1069.65"/>
+           <endpoint endx="-1069.65" endy="-596.845"/>
+          </linepath>
+          <floatingtext posttext="" text="log" linewidth="0" height="37" isinstance="0" showstereotype="1" autoresize="1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usesdiagramfillcolor="1" linecolor="#ff0000" xmi.id="uk8r6IdW2nNUl" width="58" fillcolor="none" localid="uCzT1WifS1csh" textcolor="none" usesdiagramusefillcolor="1" y="-634.845" pretext="-" role="710" usefillcolor="1" x="-1101.38"/>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+    <UML:Model name="Use Case View" isLeaf="false" visibility="public" isSpecification="false" namespace="m1" xmi.id="Use_Case_View" isAbstract="false" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model name="Component View" isLeaf="false" visibility="public" isSpecification="false" namespace="m1" xmi.id="Component_View" isAbstract="false" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model name="Deployment View" isLeaf="false" visibility="public" isSpecification="false" namespace="m1" xmi.id="Deployment_View" isAbstract="false" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model name="Entity Relationship Model" isLeaf="false" visibility="public" isSpecification="false" namespace="m1" xmi.id="Entity_Relationship_Model" isAbstract="false" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings documentation="" uniqueid="uZ5K5eeBP7hJu" viewid="uivybkveuB0P7"/>
+  <listview>
+   <listitem id="Views" open="1" type="800">
+    <listitem id="Component_View" open="1" type="821"/>
+    <listitem id="Deployment_View" open="1" type="827"/>
+    <listitem id="Entity_Relationship_Model" open="1" type="836"/>
+    <listitem id="Logical_View" open="1" type="801">
+     <listitem id="unBluRIUuztQc" open="1" type="813">
+      <listitem id="uXKyyRV9rLJB9" open="0" type="815"/>
+      <listitem id="uNStLGYFhgXjt" open="0" type="815"/>
+      <listitem id="uqNqTx0k79vK1" open="0" type="815"/>
+     </listitem>
+     <listitem id="ugImfZAFRFXWv" open="1" type="813">
+      <listitem id="uPL7XBlnTxg53" open="0" type="815"/>
+      <listitem id="uA0gw31Gf9sMm" open="0" type="815"/>
+      <listitem id="uS1Ta8kpADi4o" open="0" type="815"/>
+     </listitem>
+     <listitem id="uI5WwvRLS25oC" open="1" type="813">
+      <listitem id="upZdE1L5f6QeD" open="0" type="815"/>
+      <listitem id="uTxYhVjvkBV7Z" open="0" type="814"/>
+     </listitem>
+     <listitem id="uivybkveuB0P7" open="0" type="807" label="class diagram"/>
+     <listitem id="u0N1rpwJl67Um" open="1" type="813">
+      <listitem id="uzjFNLT8GRIwo" open="0" type="815"/>
+     </listitem>
+     <listitem id="Datatypes" open="0" type="830">
+      <listitem id="uwqX3bciROMKS" open="1" type="829"/>
+      <listitem id="uVDSWO2LObuEA" open="1" type="829"/>
+      <listitem id="uJ3GDfVb691lY" open="1" type="829"/>
+      <listitem id="uedMkEupZ3PCm" open="1" type="829"/>
+      <listitem id="uN5SxSVDTmEaP" open="1" type="829"/>
+      <listitem id="uUCENAK5asWW8" open="1" type="829"/>
+      <listitem id="uvltpLv7dMjVd" open="1" type="829"/>
+      <listitem id="uebe6ynmIhi5b" open="1" type="829"/>
+      <listitem id="uGDka1YL7R8hU" open="1" type="829"/>
+      <listitem id="ugBj46Z8mm9Kq" open="1" type="829"/>
+      <listitem id="uCtMeF8zDmVoo" open="1" type="829"/>
+      <listitem id="ubwHoXCXQqqGi" open="1" type="829"/>
+      <listitem id="uiVD3CZhHznsA" open="1" type="829"/>
+      <listitem id="uDHPkCcI24eYO" open="1" type="829"/>
+      <listitem id="uKoFkEc8BBCYT" open="1" type="829"/>
+      <listitem id="uuAWklmfOocze" open="1" type="829"/>
+      <listitem id="uJVyYzq2PYw3O" open="1" type="829"/>
+      <listitem id="uhOkeBL6aJRWB" open="1" type="829"/>
+      <listitem id="uHsBrXDvW52qv" open="1" type="829"/>
+      <listitem id="u6S42pfrRHMhM" open="1" type="829"/>
+      <listitem id="uhN6au94s5f0O" open="1" type="829"/>
+      <listitem id="u7Zs7DSKd1OGx" open="1" type="829"/>
+      <listitem id="ubZMcq8MG1umx" open="1" type="829"/>
+      <listitem id="upIdM5oynPtnI" open="1" type="829"/>
+      <listitem id="uIgbyWlPoN5Cf" open="1" type="829"/>
+     </listitem>
+     <listitem id="u9HINmopSnMed" open="1" type="813">
+      <listitem id="uTNrpiXfXIJha" open="0" type="815"/>
+      <listitem id="uLhhBjnXHAJxx" open="0" type="814"/>
+     </listitem>
+     <listitem id="uuQ7GbRKWWzDs" open="1" type="813">
+      <listitem id="uYSz5vdRrxTtA" open="0" type="815"/>
+     </listitem>
+     <listitem id="usA5Igdi5hTq6" open="1" type="813"/>
+     <listitem id="uhVIqsco5Bovp" open="1" type="813">
+      <listitem id="uYAaps45MjnEL" open="0" type="815"/>
+     </listitem>
+     <listitem id="u5v8faiVoAaY0" open="1" type="813">
+      <listitem id="ubYbE5W9oKe1a" open="0" type="815"/>
+      <listitem id="udlo09uzlmz3u" open="0" type="815"/>
+      <listitem id="ugG33OQMYJlEA" open="0" type="815"/>
+      <listitem id="u7nd4LJHSpod9" open="0" type="815"/>
+      <listitem id="uRLK45mWgl2me" open="0" type="815"/>
+     </listitem>
+     <listitem id="uCYIFFsQzq8Jq" open="1" type="813">
+      <listitem id="unh5YfJsuVcpX" open="0" type="815"/>
+      <listitem id="uh5YtZ5LYyZ7w" open="0" type="814"/>
+     </listitem>
+     <listitem id="u18sr51Ztbukx" open="1" type="813">
+      <listitem id="u156w1YubXSJA" open="0" type="815"/>
+     </listitem>
+     <listitem id="uTTGreZpl0D3z" open="1" type="813">
+      <listitem id="un6Lfm11LlVB2" open="0" type="815"/>
+      <listitem id="u0y9nFvH3DuKR" open="0" type="815"/>
+      <listitem id="uWEQoZBfDknoC" open="0" type="815"/>
+      <listitem id="u2rA1QIvzyoRA" open="0" type="815"/>
+      <listitem id="u6vFxVSKUIk7I" open="0" type="815"/>
+      <listitem id="ukoy2HfCeedNu" open="0" type="815"/>
+      <listitem id="uLW9kRxzeyFv9" open="0" type="815"/>
+      <listitem id="uWSA2jEdvGKps" open="0" type="814"/>
+      <listitem id="ucc1aeVQuNyLb" open="0" type="814"/>
+      <listitem id="uRJjjnb1uZFOj" open="0" type="814"/>
+     </listitem>
+     <listitem id="ul1YKVwDOw9Ov" open="1" type="813">
+      <listitem id="uikThNhH8bqpS" open="0" type="815"/>
+      <listitem id="unGYCM4KASfcD" open="0" type="815"/>
+      <listitem id="uiOS9T14xi1dy" open="0" type="814"/>
+      <listitem id="unIAAdBnIFS33" open="0" type="815"/>
+      <listitem id="uZ5K5eeBP7hJu" open="0" type="815"/>
+      <listitem id="u1vtyA6rCxoTH" open="0" type="815"/>
+      <listitem id="uTU2TSAf1RZ8i" open="0" type="815"/>
+      <listitem id="uWfOqjUj7SvXb" open="0" type="815"/>
+      <listitem id="uVOv8fZNkicOE" open="0" type="815"/>
+      <listitem id="uAcbRVCeMFMHg" open="0" type="814"/>
+      <listitem id="u0rLM54D5vE6d" open="0" type="815"/>
+      <listitem id="u9NlETU5Z1iUq" open="0" type="814"/>
+      <listitem id="uIUUIOz5ZpO7f" open="0" type="815"/>
+      <listitem id="u80V4A451xyl4" open="0" type="815"/>
+      <listitem id="uxo3ptwKxZSgB" open="0" type="815"/>
+      <listitem id="uv2eL10iU1pwj" open="0" type="815"/>
+      <listitem id="uoQZbpAKQ3qGQ" open="0" type="815"/>
+      <listitem id="uaMFFcoera16K" open="0" type="815"/>
+      <listitem id="utRW0to14KUSK" open="0" type="815"/>
+      <listitem id="uJALkg8Fcf0HT" open="0" type="815"/>
+      <listitem id="uO2ln8u7okdUf" open="0" type="814"/>
+      <listitem id="uWOw7ZPcN9u78" open="0" type="815"/>
+      <listitem id="uQB9zsxSqfgL7" open="0" type="815"/>
+     </listitem>
+    </listitem>
+    <listitem id="Use_Case_View" open="1" type="802"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="Python">
+    <sourcecode id="uWOw7ZPcN9u78" value="if len(args) &lt; 2:&#xa;    print(&quot;usage: start name &lt;frontend>&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;if len(args) > 2:&#xa;    vmtype = args[2]&#xa;else:&#xa;    vmtype = &quot;gui&quot;&#xa;startVm(ctx, mach, vmtype)&#xa;return 0"/>
+    <sourcecode id="uIUUIOz5ZpO7f" value="mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;cmdExistingVm(ctx, mach, 'pause', '')&#xa;return 0"/>
+    <sourcecode id="uv2eL10iU1pwj" value="mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;cmdExistingVm(ctx, mach, 'resume', '')&#xa;return 0"/>
+    <sourcecode id="u0rLM54D5vE6d" value="if len(args) &lt; 2:&#xa;    print(&quot;usage: info [vmname|uuid]&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;vmos = ctx['vb'].getGuestOSType(mach.OSTypeId)&#xa;print(&quot; One can use setvar &lt;mach> &lt;var> &lt;value> to change variable, using name in [].&quot;)&#xa;print(&quot;  Name [name]: %s&quot; % (mach.name))&#xa;print(&quot;  Description [description]: %s&quot; % (mach.description))&#xa;print(&quot;  ID [n/a]: %s&quot; % (mach.id))&#xa;print(&quot;  OS Type [via OSTypeId]: %s&quot; % (vmos.description))&#xa;print(&quot;  Firmware [firmwareType]: %s (%s)&quot; % (asEnumElem(ctx, &quot;FirmwareType&quot;, mach.firmwareType), mach.firmwareType))&#xa;print()&#xa;print(&quot;  CPUs [CPUCount]: %d&quot; % (mach.CPUCount))&#xa;print(&quot;  RAM [memorySize]: %dM&quot; % (mach.memorySize))&#xa;print(&quot;  VRAM [VRAMSize]: %dM&quot; % (mach.VRAMSize))&#xa;print(&quot;  Monitors [monitorCount]: %d&quot; % (mach.monitorCount))&#xa;print(&quot;  Chipset [chipsetType]: %s (%s)&quot; % (asEnumElem(ctx, &quot;ChipsetType&quot;, mach.chipsetType), mach.chipsetType))&#xa;print()&#xa;print(&quot;  Clipboard mode [clipboardMode]: %s (%s)&quot; % (asEnumElem(ctx, &quot;ClipboardMode&quot;, mach.clipboardMode), mach.clipboardMode))&#xa;print(&quot;  Machine status [n/a]: %s (%s)&quot; % (asEnumElem(ctx, &quot;SessionState&quot;, mach.sessionState), mach.sessionState))&#xa;print()&#xa;if mach.teleporterEnabled:&#xa;    print(&quot;  Teleport target on port %d (%s)&quot; % (mach.teleporterPort, mach.teleporterPassword))&#xa;    print()&#xa;bios = mach.BIOSSettings&#xa;print(&quot;  ACPI [BIOSSettings.ACPIEnabled]: %s&quot; % (asState(bios.ACPIEnabled)))&#xa;print(&quot;  APIC [BIOSSettings.IOAPICEnabled]: %s&quot; % (asState(bios.IOAPICEnabled)))&#xa;hwVirtEnabled = mach.getHWVirtExProperty(ctx['global'].constants.HWVirtExPropertyType_Enabled)&#xa;print(&quot;  Hardware virtualization [guest win machine.setHWVirtExProperty(ctx[\\'const\\'].HWVirtExPropertyType_Enabled, value)]: &quot; + asState(hwVirtEnabled))&#xa;hwVirtVPID = mach.getHWVirtExProperty(ctx['const'].HWVirtExPropertyType_VPID)&#xa;print(&quot;  VPID support [guest win machine.setHWVirtExProperty(ctx[\\'const\\'].HWVirtExPropertyType_VPID, value)]: &quot; + asState(hwVirtVPID))&#xa;hwVirtNestedPaging = mach.getHWVirtExProperty(ctx['const'].HWVirtExPropertyType_NestedPaging)&#xa;print(&quot;  Nested paging [guest win machine.setHWVirtExProperty(ctx[\\'const\\'].HWVirtExPropertyType_NestedPaging, value)]: &quot; + asState(hwVirtNestedPaging))&#xa;&#xa;print(&quot;  Hardware 3d acceleration [accelerate3DEnabled]: &quot; + asState(mach.accelerate3DEnabled))&#xa;print(&quot;  Hardware 2d video acceleration [accelerate2DVideoEnabled]: &quot; + asState(mach.accelerate2DVideoEnabled))&#xa;&#xa;print(&quot;  Use universal time [RTCUseUTC]: %s&quot; % (asState(mach.RTCUseUTC)))&#xa;print(&quot;  HPET [HPETEnabled]: %s&quot; % (asState(mach.HPETEnabled)))&#xa;if mach.audioAdapter.enabled:&#xa;    print(&quot;  Audio [via audioAdapter]: chip %s; host driver %s&quot; % (asEnumElem(ctx, &quot;AudioControllerType&quot;, mach.audioAdapter.audioController), asEnumElem(ctx, &quot;AudioDriverType&quot;,  mach.audioAdapter.audioDriver)))&#xa;print(&quot;  CPU hotplugging [CPUHotPlugEnabled]: %s&quot; % (asState(mach.CPUHotPlugEnabled)))&#xa;&#xa;print(&quot;  Keyboard [keyboardHIDType]: %s (%s)&quot; % (asEnumElem(ctx, &quot;KeyboardHIDType&quot;, mach.keyboardHIDType), mach.keyboardHIDType))&#xa;print(&quot;  Pointing device [pointingHIDType]: %s (%s)&quot; % (asEnumElem(ctx, &quot;PointingHIDType&quot;, mach.pointingHIDType), mach.pointingHIDType))&#xa;print(&quot;  Last changed [n/a]: &quot; + time.asctime(time.localtime(mach.lastStateChange/1000)))&#xa;# OSE has no VRDE&#xa;try:&#xa;    print(&quot;  VRDE server [VRDEServer.enabled]: %s&quot; % (asState(mach.VRDEServer.enabled)))&#xa;except:&#xa;    pass&#xa;&#xa;print()&#xa;print(&quot;  USB Controllers:&quot;)&#xa;for oUsbCtrl in ctx['global'].getArray(mach, 'USBControllers'):&#xa;    print(&quot;    '%s': type %s  standard: %#x&quot; \&#xa;        % (oUsbCtrl.name, asEnumElem(ctx, &quot;USBControllerType&quot;, oUsbCtrl.type), oUsbCtrl.USBStandard))&#xa;&#xa;print()&#xa;print(&quot;  I/O subsystem info:&quot;)&#xa;print(&quot;   Cache enabled [IOCacheEnabled]: %s&quot; % (asState(mach.IOCacheEnabled)))&#xa;print(&quot;   Cache size [IOCacheSize]: %dM&quot; % (mach.IOCacheSize))&#xa;&#xa;controllers = ctx['global'].getArray(mach, 'storageControllers')&#xa;if controllers:&#xa;    print()&#xa;    print(ctx, &quot;  Storage Controllers:&quot;)&#xa;for controller in controllers:&#xa;    print(&quot;    '%s': bus %s type %s&quot; % (controller.name, asEnumElem(ctx, &quot;StorageBus&quot;, controller.bus), asEnumElem(ctx, &quot;StorageControllerType&quot;, controller.controllerType)))&#xa;&#xa;attaches = ctx['global'].getArray(mach, 'mediumAttachments')&#xa;if attaches:&#xa;    print()&#xa;    print(&quot;  Media:&quot;)&#xa;for a in attaches:&#xa;    print(&quot;   Controller: '%s' port/device: %d:%d type: %s (%s):&quot; % (a.controller, a.port, a.device, asEnumElem(ctx, &quot;DeviceType&quot;, a.type), a.type))&#xa;    medium = a.medium&#xa;    if a.type == ctx['global'].constants.DeviceType_HardDisk:&#xa;        print(&quot;   HDD:&quot;)&#xa;        print(&quot;    Id: %s&quot; % (medium.id))&#xa;        print(&quot;    Location: %s&quot; % (medium.location))&#xa;        print(&quot;    Name: %s&quot; % (medium.name))&#xa;        print(&quot;    Format: %s&quot; % (medium.format))&#xa;    if a.type == ctx['global'].constants.DeviceType_DVD:&#xa;        print(&quot;   DVD:&quot;)&#xa;        if medium:&#xa;            print(&quot;    Id: %s&quot; % (medium.id))&#xa;            print(&quot;    Name: %s&quot; % (medium.name))&#xa;            if medium.hostDrive:&#xa;                print(&quot;    Host DVD %s&quot; % (medium.location))&#xa;                if a.passthrough:&#xa;                    print(&quot;    [passthrough mode]&quot;)&#xa;            else:&#xa;                print(&quot;    Virtual image at %s&quot; % (medium.location))&#xa;                print(&quot;    Size: %s&quot; % (medium.size))&#xa;&#xa;    if a.type == ctx['global'].constants.DeviceType_Floppy:&#xa;        print(&quot;   Floppy:&quot;)&#xa;        if medium:&#xa;            print(&quot;    Id: %s&quot; % (medium.id))&#xa;            print(&quot;    Name: %s&quot; % (medium.name))&#xa;            if medium.hostDrive:&#xa;                print(&quot;    Host floppy %s&quot; % (medium.location))&#xa;            else:&#xa;                print(&quot;    Virtual image at %s&quot; % (medium.location))&#xa;                print(&quot;    Size: %s&quot; % (medium.size))&#xa;&#xa;print()&#xa;print(&quot;  Shared folders:&quot;)&#xa;for sf in ctx['global'].getArray(mach, 'sharedFolders'):&#xa;    printSf(ctx, sf)&#xa;&#xa;return 0"/>
+    <sourcecode id="uxo3ptwKxZSgB" value="mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;cmdExistingVm(ctx, mach, 'powerdown', '')&#xa;return 0"/>
+    <sourcecode id="u80V4A451xyl4" value="mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;cmdExistingVm(ctx, mach, 'powerbutton', '')&#xa;return 0"/>
+    <sourcecode id="uoQZbpAKQ3qGQ" value="mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;cmdExistingVm(ctx, mach, 'save', '')&#xa;return 0"/>
+    <sourcecode id="uaMFFcoera16K" value="if len(args) &lt; 2:&#xa;    print(&quot;usage: screenshot vm &lt;file> &lt;width> &lt;height> &lt;monitor>&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;cmdExistingVm(ctx, mach, 'screenshot', args[2:])&#xa;return 0"/>
+    <sourcecode id="uJALkg8Fcf0HT" value="if (len(args) &lt; 2 or args[1] == 'help'):&#xa;    print(&quot;Take snapshot:    snapshot vm take name &lt;description>&quot;)&#xa;    print(&quot;Restore snapshot: snapshot vm restore name&quot;)&#xa;    print(&quot;Merge snapshot:   snapshot vm merge name&quot;)&#xa;    return 0&#xa;&#xa;mach = argsToMach(ctx, args)&#xa;if mach is None:&#xa;    return 0&#xa;cmd = args[2]&#xa;if cmd == 'take':&#xa;    if len(args) &lt; 4:&#xa;        print(&quot;usage: snapshot vm take name &lt;description>&quot;)&#xa;        return 0&#xa;    name = args[3]&#xa;    if len(args) > 4:&#xa;        desc = args[4]&#xa;    else:&#xa;        desc = &quot;&quot;&#xa;    cmdAnyVm(ctx, mach, lambda ctx, mach, console, args: progressBar(ctx, mach.takeSnapshot(name, desc, True)[0]))&#xa;    return 0&#xa;&#xa;if cmd == 'restore':&#xa;    if len(args) &lt; 4:&#xa;        print(&quot;usage: snapshot vm restore name&quot;)&#xa;        return 0&#xa;    name = args[3]&#xa;    snap = mach.findSnapshot(name)&#xa;    cmdAnyVm(ctx, mach, lambda ctx, mach, console, args: progressBar(ctx, mach.restoreSnapshot(snap)))&#xa;    return 0&#xa;&#xa;if cmd == 'restorecurrent':&#xa;    if len(args) &lt; 4:&#xa;        print(&quot;usage: snapshot vm restorecurrent&quot;)&#xa;        return 0&#xa;    snap = mach.currentSnapshot()&#xa;    cmdAnyVm(ctx, mach, lambda ctx, mach, console, args: progressBar(ctx, mach.restoreSnapshot(snap)))&#xa;    return 0&#xa;&#xa;if cmd == 'delete':&#xa;    if len(args) &lt; 4:&#xa;        print(&quot;usage: snapshot vm delete name&quot;)&#xa;        return 0&#xa;    name = args[3]&#xa;    snap = mach.findSnapshot(name)&#xa;    cmdAnyVm(ctx, mach, lambda ctx, mach, console, args: progressBar(ctx, mach.deleteSnapshot(snap.id)))&#xa;    return 0&#xa;&#xa;print(&quot;Command '%s' is unknown&quot; % (cmd))&#xa;return 0&#xa;"/>
+    <sourcecode id="uVOv8fZNkicOE" value="if len(args) &lt; 3:&#xa;    print(&quot;usage: findLog vm pattern &lt;num>&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;&#xa;log = 0&#xa;if len(args) > 3:&#xa;    log = args[3]&#xa;&#xa;pattern = args[2]&#xa;uOffset = 0&#xa;while True:&#xa;    # to reduce line splits on buffer boundary&#xa;    data = mach.readLog(log, uOffset, 512*1024)&#xa;    if len(data) == 0:&#xa;        break&#xa;    d = str(data).split(&quot;\n&quot;)&#xa;    for s in d:&#xa;        match = re.findall(pattern, s)&#xa;        if len(match) > 0:&#xa;            for mt in match:&#xa;                s = s.replace(mt, colored(mt, 'red'))&#xa;            print(s)&#xa;    uOffset += len(data)&#xa;&#xa;return 0"/>
+    <sourcecode id="utRW0to14KUSK" value="if len(args) &lt; 2:&#xa;    print(&quot;usage: showLog vm &lt;num>&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;&#xa;log = 0&#xa;if len(args) > 2:&#xa;    log = args[2]&#xa;&#xa;uOffset = 0&#xa;while True:&#xa;    data = mach.readLog(log, uOffset, 4096)&#xa;    if len(data) == 0:&#xa;        break&#xa;    # print adds either NL or space to chunks not ending with a NL&#xa;    sys.stdout.write(str(data))&#xa;    uOffset += len(data)&#xa;&#xa;    return 0&#xa;"/>
+    <sourcecode id="uWfOqjUj7SvXb" value="if len(args) &lt; 2:&#xa;    print(&quot;usage: findAssert vm &lt;num>&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach == None:&#xa;    return 0&#xa;&#xa;log = 0&#xa;if len(args) > 2:&#xa;    log = args[2]&#xa;&#xa;uOffset = 0&#xa;ere = re.compile(r'(Expression:|\!\!\!\!\!\!)')&#xa;active = False&#xa;context = 0&#xa;while True:&#xa;    # to reduce line splits on buffer boundary&#xa;    data = mach.readLog(log, uOffset, 512*1024)&#xa;    if len(data) == 0:&#xa;        break&#xa;    d = str(data).split(&quot;\n&quot;)&#xa;    for s in d:&#xa;        if active:&#xa;            print(s)&#xa;            if context == 0:&#xa;                active = False&#xa;            else:&#xa;                context = context - 1&#xa;            continue&#xa;        match = ere.findall(s)&#xa;        if len(match) > 0:&#xa;            active = True&#xa;            context = 50&#xa;            print(s)&#xa;    uOffset += len(data)&#xa;&#xa;return 0"/>
+    <sourcecode id="unGYCM4KASfcD" value="session = ctx['global'].openMachineSession(mach, fPermitSharing=True)&#xa;mach = session.machine&#xa;try:&#xa;    cmd(ctx, mach, session.console, args)&#xa;except Exception as e:&#xa;    save = False&#xa;    printErr(ctx, e)&#xa;    if g_fVerbose:&#xa;        traceback.print_exc()&#xa;if save:&#xa;    mach.saveSettings()&#xa;ctx['global'].closeMachineSession(session)"/>
+    <sourcecode id="u1vtyA6rCxoTH" value="session = None&#xa;try:&#xa;    vbox = ctx['vb']&#xa;    session = ctx['global'].openMachineSession(mach, fPermitSharing=True)&#xa;except Exception as e:&#xa;    printErr(ctx, &quot;Session to '%s' not open: %s&quot; % (mach.name, str(e)))&#xa;    if g_fVerbose:&#xa;        traceback.print_exc()&#xa;    return&#xa;if session.state != ctx['const'].SessionState_Locked:&#xa;    print(&quot;Session to '%s' in wrong state: %s&quot; % (mach.name, session.state))&#xa;    session.unlockMachine()&#xa;    return&#xa;# this could be an example how to handle local only (i.e. unavailable&#xa;# in Webservices) functionality&#xa;if ctx['remote'] and cmd == 'some_local_only_command':&#xa;    print('Trying to use local only functionality, ignored')&#xa;    session.unlockMachine()&#xa;    return&#xa;console = session.console&#xa;ops = {'pause':           lambda: console.pause(),&#xa;       'resume':          lambda: console.resume(),&#xa;       'powerdown':       lambda: console.powerDown(),&#xa;       'powerbutton':     lambda: console.powerButton(),&#xa;       'stats':           lambda: perfStats(ctx, mach),&#xa;       'guestlambda':     lambda: args[0](ctx, mach, console, args[1:]),&#xa;       'save':            lambda: progressBar(ctx, session.machine.saveState()),&#xa;       'screenshot':      lambda: takeScreenshot(ctx, console, args),&#xa;       }&#xa;try:&#xa;    ops[cmd]()&#xa;except KeyboardInterrupt:&#xa;    ctx['interrupt'] = True&#xa;except Exception as e:&#xa;    printErr(ctx, e)&#xa;    if g_fVerbose:&#xa;        traceback.print_exc()&#xa;&#xa;session.unlockMachine()"/>
+    <sourcecode id="uZ5K5eeBP7hJu" value="session = ctx['global'].openMachineSession(mach, fPermitSharing=True)&#xa;mach = session.machine&#xa;try:&#xa;    cmd(ctx, mach, args)&#xa;except Exception as e:&#xa;    save = False&#xa;    printErr(ctx, e)&#xa;    if g_fVerbose:&#xa;        traceback.print_exc()&#xa;if save:&#xa;    try:&#xa;        mach.saveSettings()&#xa;    except Exception as e:&#xa;        printErr(ctx, e)&#xa;        if g_fVerbose:&#xa;            traceback.print_exc()&#xa;ctx['global'].closeMachineSession(session)"/>
+    <sourcecode id="u6vFxVSKUIk7I" value="for mach in getMachines(ctx, True):&#xa;    try:&#xa;        if mach.teleporterEnabled:&#xa;            tele = &quot;[T] &quot;&#xa;        else:&#xa;            tele = &quot;    &quot;&#xa;            print(&quot;%sMachine '%s' [%s], machineState=%s, sessionState=%s&quot; % (tele, mach.name, mach.id, asEnumElem(ctx, &quot;MachineState&quot;, mach.state), asEnumElem(ctx, &quot;SessionState&quot;, mach.sessionState)))&#xa;    except Exception as e:&#xa;        printErr(ctx, e)&#xa;        if g_fVerbose:&#xa;            traceback.print_exc()&#xa;return 0"/>
+    <sourcecode id="u2rA1QIvzyoRA" value="for mach in getMachines(ctx, True):&#xa;    try:&#xa;        if mach.teleporterEnabled:&#xa;            tele = &quot;[T] &quot;&#xa;        else:&#xa;            tele = &quot;    &quot;&#xa;            print(&quot;%sMachine '%s' [%s], machineState=%s, sessionState=%s&quot; % (tele, mach.name, mach.id, asEnumElem(ctx, &quot;MachineState&quot;, mach.state), asEnumElem(ctx, &quot;SessionState&quot;, mach.sessionState)))&#xa;    except Exception as e:&#xa;        printErr(ctx, e)&#xa;        if g_fVerbose:&#xa;            traceback.print_exc()&#xa;return 0"/>
+    <sourcecode id="u0y9nFvH3DuKR" value="if len(args) > 4:&#xa;    print(&quot;usage: connect url &lt;username> &lt;passwd>&quot;)&#xa;    return 0&#xa;&#xa;if ctx['vb'] is not None:&#xa;    print(&quot;Already connected, disconnect first...&quot;)&#xa;    return 0&#xa;&#xa;if len(args) > 1:&#xa;    url = args[1]&#xa;else:&#xa;    url = None&#xa;&#xa;if len(args) > 2:&#xa;    user = args[2]&#xa;else:&#xa;    user = &quot;&quot;&#xa;&#xa;if len(args) > 3:&#xa;    passwd = args[3]&#xa;else:&#xa;    passwd = &quot;&quot;&#xa;&#xa;ctx['wsinfo'] = [url, user, passwd]&#xa;ctx['vb'] = ctx['global'].platform.connect(url, user, passwd)&#xa;try:&#xa;    print(&quot;Running VirtualBox version %s&quot; % (ctx['vb'].version))&#xa;except Exception as e:&#xa;    printErr(ctx, e)&#xa;    if g_fVerbose:&#xa;        traceback.print_exc()&#xa;ctx['perf'] = ctx['global'].getPerfCollector(ctx['vb'])&#xa;return 0"/>
+    <sourcecode id="uWEQoZBfDknoC" value="if len(args) != 1:&#xa;    print(&quot;usage: disconnect&quot;)&#xa;    return 0&#xa;&#xa;if ctx['vb'] is None:&#xa;    print(&quot;Not connected yet.&quot;)&#xa;    return 0&#xa;&#xa;try:&#xa;    ctx['global'].platform.disconnect()&#xa;except:&#xa;    ctx['vb'] = None&#xa;    raise&#xa;&#xa;ctx['vb'] = None&#xa;return 0"/>
+    <sourcecode id="uLW9kRxzeyFv9" value="if ctx['wsinfo'] is None:&#xa;    print(&quot;Never connected...&quot;)&#xa;    return 0&#xa;&#xa;try:&#xa;    ctx['global'].platform.disconnect()&#xa;except:&#xa;    pass&#xa;&#xa;[url, user, passwd] = ctx['wsinfo']&#xa;ctx['vb'] = ctx['global'].platform.connect(url, user, passwd)&#xa;try:&#xa;    print(&quot;Running VirtualBox version %s&quot; % (ctx['vb'].version))&#xa;except Exception as e:&#xa;    printErr(ctx, e)&#xa;    if g_fVerbose:&#xa;        traceback.print_exc()&#xa;ctx['perf'] = ctx['global'].getPerfCollector(ctx['vb'])&#xa;return 0&#xa;&#xa;def exportVMCmd(ctx, args):&#xa;if len(args) &lt; 3:&#xa;    print(&quot;usage: exportVm &lt;machine> &lt;path> &lt;format> &lt;license>&quot;)&#xa;    return 0&#xa;mach = argsToMach(ctx, args)&#xa;if mach is None:&#xa;    return 0&#xa;path = args[2]&#xa;if len(args) > 3:&#xa;    fmt = args[3]&#xa;else:&#xa;    fmt = &quot;ovf-1.0&quot;&#xa;if len(args) > 4:&#xa;    lic = args[4]&#xa;else:&#xa;    lic = &quot;GPL&quot;&#xa;&#xa;app = ctx['vb'].createAppliance()&#xa;desc = mach.export(app)&#xa;desc.addDescription(ctx['global'].constants.VirtualSystemDescriptionType_License, lic, &quot;&quot;)&#xa;progress = app.write(fmt, path)&#xa;if (progressBar(ctx, progress) and int(progress.resultCode) == 0):&#xa;    print(&quot;Exported to %s in format %s&quot; % (path, fmt))&#xa;else:&#xa;    reportError(ctx, progress)&#xa;return 0&#xa;"/>
+    <sourcecode id="uNStLGYFhgXjt" value="if len(args) &lt; 2:&#xa;    print(&quot;usage: shell &lt;commands>&quot;)&#xa;    return 0&#xa;cmd = ' '.join(args[1:])&#xa;&#xa;try:&#xa;    os.system(cmd)&#xa;except KeyboardInterrupt:&#xa;    # to allow shell command interruption&#xa;    pass&#xa;return 0"/>
+   </codegenerator>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>

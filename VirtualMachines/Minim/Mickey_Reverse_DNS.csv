@@ -1,0 +1,25 @@
+Name,Type,Data,Timestamp
+(same as parent folder),Start of Authority (SOA),[68], mickeym.delreynet.local., hostmaster.delreynet.local.,static
+(same as parent folder),Name Server (NS),mickeym.delreynet.local.,static
+192.168.88.1,Pointer (PTR),dahub.delreynet.local.,static
+192.168.88.10,Pointer (PTR),mickeym.delreynet.local.,static
+192.168.88.10,Pointer (PTR),delreynet.local.,static
+192.168.88.101,Pointer (PTR),ursula.DELREYNET.local.,?8/?8/?2018 7:00:00 AM
+192.168.88.102,Pointer (PTR),ChristopherRobin.DELREYNET.local.,?8/?9/?2018 12:00:00 AM
+192.168.88.106,Pointer (PTR),Bathazar.DELREYNET.local.,?8/?7/?2018 3:00:00 PM
+192.168.88.107,Pointer (PTR),Gopher.DELREYNET.local.,?8/?7/?2018 8:00:00 AM
+192.168.88.109,Pointer (PTR),DonaldD.DELREYNET.local.,?8/?7/?2018 9:00:00 PM
+192.168.88.110,Pointer (PTR),Chip.DELREYNET.local.,?8/?9/?2018 9:00:00 AM
+192.168.88.111,Pointer (PTR),Dale.DELREYNET.local.,?8/?9/?2018 7:00:00 AM
+192.168.88.112,Pointer (PTR),Chip.DELREYNET.local.,?6/?3/?2018 4:00:00 PM
+192.168.88.115,Pointer (PTR),CaptainHook.DELREYNET.local.,?8/?8/?2018 10:00:00 PM
+192.168.88.117,Pointer (PTR),Carrot.DELREYNET.local.,?8/?13/?2018 4:00:00 PM
+192.168.88.123,Pointer (PTR),Porcupine.DELREYNET.local.,?8/?14/?2018 8:00:00 AM
+192.168.88.124,Pointer (PTR),Hefalump.DELREYNET.local.,?8/?9/?2018 1:00:00 PM
+192.168.88.126,Pointer (PTR),Piglet.DELREYNET.local.,?8/?14/?2018 5:00:00 AM
+192.168.88.132,Pointer (PTR),Pooh.DELREYNET.local.,?8/?8/?2018 8:00:00 AM
+192.168.88.189,Pointer (PTR),shootsnleaves.DELREYNET.local.,?8/?9/?2018 7:00:00 AM
+192.168.88.198,Pointer (PTR),maleficent.DELREYNET.local.,?8/?9/?2018 7:00:00 AM
+192.168.88.20,Pointer (PTR),minim.delreynet.local.,static
+192.168.88.55,Pointer (PTR),panx.delreynet.local.,static
+192.168.88.66,Pointer (PTR),HP-MainPrinter.delreynet.local.,static

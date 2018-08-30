@@ -1,0 +1,72 @@
+First configure router:# RouterOS 6.38.7
+#
+# Configure the Router hardware
+#
+
+# Create two bridges. One for LAN. One for Guests
+/interface bridge
+add name=bridge-LAN  protocol-mode=none
+add name=bridge-VLAN protocol-mode=none
+
+# Ensure you have a port set aside for Trunk duties. We'll use ether5
+/interface ethernet
+set [ find default-name=ether1 ] name=ether-WAN
+set [ find default-name=ether3 ] master-port=ether2
+set [ find default-name=ether4 ] master-port=ether2
+set [ find default-name=ether5 ] master-port="none"
+
+# Create the VLAN on ether5
+/interface vlan
+add interface=ether5 name=vLAN10 vlan-id=10
+
+# Make each bridge aware of the other by adding ports between them
+/interface bridge port
+add bridge=bridge-LAN  interface=ether2
+add bridge=bridge-LAN  interface=vLAN10
+add bridge=bridge-VLAN interface=ether5
+
+# Assign IP Address to the bridges
+/ip address
+add interface=bridge-LAN  address=192.168.0.1/24
+add interface=bridge-VLAN address=192.168.10.1/24
+
+# Setup a seperate DHCP server for Guest VLAN
+/ip pool
+add name=dhcp_guest ranges=192.168.10.2-192.168.10.254
+/ip dhcp-server
+add address-pool=dhcp_guest interface=bridge-VLAN name=dhcp-vlan10
+/ip dhcp-server network
+add address=192.168.10.0/24 dns-server=8.8.8.8 domain=guest.local gateway=192.168.10.1Next configure the Wifi AP:# RouterOS 6.38.7
+#
+# Configure the WiFi AP hardware
+#
+
+# Create two bridges. One for LAN. One for Guests
+/interface bridge
+add name=bridge-LAN  protocol-mode=none
+add name=bridge-VLAN protocol-mode=none
+
+# Ensure you have a port set aside for Trunk duties. We'll use ether1 for an AP
+/interface ethernet
+set [ find default-name=ether1 ] master-port="none"
+set [ find default-name=ether3 ] master-port=ether2
+set [ find default-name=ether4 ] master-port=ether2
+set [ find default-name=ether5 ] master-port=ether2
+
+# Create the VLAN on ether1 using the same ID as the router's Trunk port
+/interface vlan
+add interface=ether1 name=vLAN10 vlan-id=10
+
+# Make each bridge aware of the other by adding ports between them
+/interface bridge port
+add bridge=bridge-LAN interface=ether2
+add bridge=bridge-LAN interface=vLAN10
+add bridge=bridge-VLAN interface=ether1
+
+# Also add the WiFi interface to VLAN bridge. An extra step
+add bridge=bridge-VLAN interface=wlan1
+
+# Assign IP Address to the bridges
+/ip address
+add interface=bridge-LAN  address=192.168.0.2/24
+add interface=bridge-VLAN address=192.168.10.2/24
