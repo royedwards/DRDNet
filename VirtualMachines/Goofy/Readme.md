@@ -105,6 +105,80 @@ Install utilities
 
 Reboot to switch to the new virtualbox enabled kernel and modules
 
+Install Docker from Official Docker Repository
+Docker is now available in two editions,
+
+Community Edition (CE)
+Enterprise Edition (EE)
+Here, we will install Docker Comunity Edition (CE).
+
+Prerequisites
+Uninstall the older versions of Docker package, named docker or docker-engine or docker.io along with associated dependencies.
+
+If the system does not have Docker packages, skip the below step.
+
+	sudo apt -y remove docker docker-engine docker.io
+Contents such as images, volumes, and networks under /var/lib/docker/ are preserved.
+
+Setup Docker Repository
+Update the repository cache.
+
+
+ 
+	sudo apt update
+Install the below packages to ensure the apt work with https method, and CA certificates are installed.
+
+	sudo apt install -y apt-transport-https software-properties-common ca-certificates curl wget
+Add the GPG key for Docker repository on your system.
+
+	wget https://download.docker.com/linux/ubuntu/gpg 
+	sudo apt-key add gpg
+Now, add the official Docker repository by running the below command in the terminal.
+
+	echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable" | sudo tee /etc/apt/sources.list.d/docker.list
+Update the apt database.
+
+	sudo apt update
+Make sure you are installing the docker package from the official repository.
+
+	sudo apt-cache policy docker-ce
+Output:
+
+docker-ce:
+  Installed: (none)
+  Candidate: 18.03.1~ce~3-0~ubuntu
+  Version table:
+     18.03.1~ce~3-0~ubuntu 500
+        500 https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages
+Install Docker CE on Ubuntu
+Now, install the Docker using the following command.
+
+	sudo apt -y install docker-ce
+Now you have Docker installed on your machine, start the Docker service in case if it is not started automatically after the installation
+
+	sudo systemctl start docker
+	sudo systemctl enable docker
+Verify the Docker version.
+
+	# docker --version
+Output:
+
+Docker version 18.03.1-ce, build 9ee9f40
+Run Docker Containers
+Run a docker container using the docker run command to download and start the container.
+
+sudo docker run hello-world
+Output: This confirms us that Docker is correctly installed.
+
+Unable to find image 'hello-world:latest' locally
+latest: Pulling from library/hello-world
+78445dd45222: Pull complete 
+Digest: sha256:c5515758d4c5e1e838e9cd307f6c6a0d620b5e07e6f927b07d05f6d12a1ac8d7
+Status: Downloaded newer image for hello-world:latest
+
+Hello from Docker!
+
+This message shows that your installation appears to be working correctly.
 
 
 # Configurations
