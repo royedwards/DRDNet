@@ -73,3 +73,48 @@
 [submodule "DockerConfigs/RT"]
 	path = DockerConfigs/RT
 	url = /home/roy/Dev/DRDNet/3rdParty/docker-rt/
+[submodule "DockerConfigs/ClamAV"]
+	path = DockerConfigs/ClamAV
+	url = /home/roy/Dev/DRDNet/3rdParty/docker-clamav/
+[submodule "DockerConfigs/Nagios"]
+	path = DockerConfigs/Nagios
+	url = /home/roy/Dev/DRDNet/3rdParty/docker-nagios
+[submodule "DockerConfigs/Cacti"]
+	path = DockerConfigs/Cacti
+	url = /home/roy/Dev/DRDNet/3rdParty/docker-cacti
+[submodule "DockerConfigs/Trisulnsm"]
+	path = DockerConfigs/Trisulnsm
+	url = /home/roy/Dev/DRDNet/3rdParty/docker-trisulnsm
+[submodule "DockerConfigs/Shinken"]
+	path = DockerConfigs/Shinken
+	url = /home/roy/Dev/DRDNet/3rdParty/docker_shinken
+[submodule "DockerConfigs/Ax-zabbix"]
+	path = DockerConfigs/Ax-zabbix
+	url = /home/roy/Dev/DRDNet/3rdParty/ax-zabbix-docker
+[submodule "DockerConfigs/TPotCE"]
+	path = DockerConfigs/TPotCE
+	url = /home/roy/Dev/DRDNet/3rdParty/tpotce/
+[submodule "DockerConfigs/grIDS_drdnet"]
+	path = DockerConfigs/grIDS_drdnet
+	url = /home/roy/Dev/DRDNet/3rdParty/grIDS
+[submodule "DockerConfigs/OCSInventory-Stack"]
+	path = DockerConfigs/OCSInventory-Stack
+	url = /home/roy/Dev/DRDNet/3rdParty/OCSInventory-Docker-Stack
+[submodule "DockerConfigs/AmsterdamNSM"]
+	path = DockerConfigs/AmsterdamNSM
+	url = /home/roy/Dev/DRDNet/3rdParty/Amsterdam
+[submodule "DockerConfigs/PrometheusDocker"]
+	path = DockerConfigs/PrometheusDocker
+	url = /home/roy/Dev/DRDNet/3rdParty/dockprom
+[submodule "DockerConfigs/Osticket"]
+	path = DockerConfigs/Osticket
+	url = /home/roy/Dev/DRDNet/3rdParty/osticket-docker
+[submodule "DockerConfigs/Zabbix"]
+	path = DockerConfigs/Zabbix
+	url = /home/roy/Dev/DRDNet/3rdParty/zabbix-docker
+[submodule "DockerConfigs/TPot-AI"]
+	path = DockerConfigs/TPot-AI
+	url = /home/roy/Dev/DRDNet/3rdParty/t-pot-autoinstall
+[submodule "DockerConfigs/Mediawiki"]
+	path = DockerConfigs/Mediawiki
+	url = /home/roy/Dev/DRDNet/3rdParty/docker-mediawiki
