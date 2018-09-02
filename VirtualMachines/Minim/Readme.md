@@ -103,6 +103,9 @@ Install utilities
 
 	# apt-get -y install p7zip-full wireshark phpmyadmin
 
+Install Version Control Software
+	sudo bash apt install -y anjuta git git-all giggle git-cola gitg gitk git-crypt git-svn git-cvs git-daemon-run git-gui git-secret gpg gpg-agent libgit-wrapper-perl meld xxdiff python-git eric
+
 
 Reboot to switch to the new virtualbox enabled kernel and modules
 
@@ -143,6 +146,7 @@ Finally, run the commands below to install the latest version of the software.
 You should have the latest version of VirtualBox installed after running the above commands… Now go to search for the package and launch it.
 
 # Install Additional Moules
+
 Install Remote Desktop Environment
 
 	$ sudo apt install remmina	

@@ -103,6 +103,9 @@ Install utilities
 
 	# apt-get -y install p7zip-full wireshark phpmyadmin
 
+Install Version Control Software
+	sudo bash apt install -y anjuta git git-all giggle git-cola gitg gitk git-crypt git-svn git-cvs git-daemon-run git-gui git-secret gpg gpg-agent libgit-wrapper-perl meld xxdiff python-git eric
+
 
 Reboot to switch to the new virtualbox enabled kernel and modules
 
