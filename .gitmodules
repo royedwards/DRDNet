@@ -112,3 +112,6 @@
 [submodule "DockerConfigs/Mediawiki"]
 	path = DockerConfigs/Mediawiki
 	url = /home/roy/Dev/DRDNet/3rdParty/docker-mediawiki
+[submodule "3rdParty/rt"]
+	path = 3rdParty/rt
+	url = git@github.com:bestpractical/rt.git
