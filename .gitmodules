@@ -34,9 +34,6 @@
 [submodule "3rdParty/grIDS"]
 	path = 3rdParty/grIDS
 	url = git@github.com:gradiuscypher/grIDS.git
-[submodule "3rdParty/Amsterdam"]
-	path = 3rdParty/Amsterdam
-	url = git@github.com:StamusNetworks/Amsterdam.git
 [submodule "3rdParty/dockprom"]
 	path = 3rdParty/dockprom
 	url = git@github.com:stefanprodan/dockprom.git
@@ -100,9 +97,6 @@
 [submodule "DockerConfigs/OCSInventory-Stack"]
 	path = DockerConfigs/OCSInventory-Stack
 	url = /home/roy/Dev/DRDNet/3rdParty/OCSInventory-Docker-Stack
-[submodule "DockerConfigs/AmsterdamNSM"]
-	path = DockerConfigs/AmsterdamNSM
-	url = /home/roy/Dev/DRDNet/3rdParty/Amsterdam
 [submodule "DockerConfigs/PrometheusDocker"]
 	path = DockerConfigs/PrometheusDocker
 	url = /home/roy/Dev/DRDNet/3rdParty/dockprom
