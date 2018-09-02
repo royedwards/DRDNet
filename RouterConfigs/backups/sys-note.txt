@@ -1,1 +1,0 @@
-HoneyPot Industries Networks, STIG V-3013 - Authorized Admins only. Access attempts monitored and parsed.
