@@ -80,9 +80,6 @@ The system is now up to date, reboot so that you are using the latest kernel and
 
 Now we will add specific software to create the environment that we want.
 
-Install the Gnome Windowning environment and the gdm3 login manager.
-
-	# apt-get -y install blah-blah-blah
 
 Setup NTP so that all of our times are locked together across machines.
 
@@ -106,9 +103,6 @@ Install utilities
 
 	# apt-get -y install p7zip-full wireshark phpmyadmin
 
-Install Remote Desktop Environment
-
-	$ sudo apt install remmina	
 
 Reboot to switch to the new virtualbox enabled kernel and modules
 
@@ -148,8 +142,10 @@ Finally, run the commands below to install the latest version of the software.
 
 You should have the latest version of VirtualBox installed after running the above commands… Now go to search for the package and launch it.
 
+# Install Additional Moules
+Install Remote Desktop Environment
 
-# Configurations
+	$ sudo apt install remmina	
 
 All base configurations should alredy be performed but there are a copy of all changed configuration files in a tree that starts from / in a directory called configfile_systemtree
 

@@ -80,6 +80,7 @@ The system is now up to date, reboot so that you are using the latest kernel and
 
 Now we will add specific software to create the environment that we want.
 
+
 Setup NTP so that all of our times are locked together across machines.
 
 	# apt-get install ntpdate
@@ -100,10 +101,13 @@ Install Ubuntu Unity Gnome Desktop Environment
 
 Install utilities
 
-	# apt-get -y install p7zip-full
+	# apt-get -y install p7zip-full wireshark phpmyadmin
 
 
 Reboot to switch to the new virtualbox enabled kernel and modules
+
+# Install Additional Modules
+
 
 Install Docker from Official Docker Repository
 Docker is now available in two editions,
