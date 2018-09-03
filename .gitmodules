@@ -121,3 +121,6 @@
 [submodule "3rdParty/docker-request-tracker"]
 	path = 3rdParty/docker-request-tracker
 	url = git@github.com:littlemanco/docker-request-tracker.git
+[submodule "DockerConfigs/request-tracker"]
+	path = DockerConfigs/request-tracker
+	url = /home/roy/Dev/DRDNet/3rdParty/docker-request-tracker
